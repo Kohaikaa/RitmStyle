@@ -1,0 +1,17 @@
+.header {
+    margin-top: 30px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 60px;
+
+        img {
+            width: 100%;
+        }
+    }
+}

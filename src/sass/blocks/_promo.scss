@@ -1,0 +1,44 @@
+.promo {
+    margin-top: 50px;
+
+    &__bg {
+        width: 100%;
+        background: url("../img/main/bg.png") center (center/cover) no-repeat;
+        padding: 136px 0 210px 0;
+        border-radius: 10px;
+    }
+
+    &__subheader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+        color: $text_color;
+
+        &::before {
+            content: '';
+            @include petal;
+            background: url("../icons/white_petal.svg") center (center/cover) no-repeat;
+            margin-right: 66px;
+        }
+
+        &::after {
+            content: '';
+            @include petal;
+            background: url("../icons/white_petal.svg") center (center/cover) no-repeat;
+            margin-left: 66px;
+            transform: scaleX(-100%);
+        }
+    }
+
+    &__header {
+        margin-top: 40px;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 90px;
+        text-align: center;
+        color: $text_color;
+    }
+}

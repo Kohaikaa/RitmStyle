@@ -1,0 +1,21 @@
+@mixin button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 36px;
+
+    background: $accent;
+    border-radius: 3px;
+    border: none;
+
+    font-weight: 600;
+    font-size: 13px;
+    color: $text_color;
+}
+
+@mixin petal {
+    width: 28px;
+    height: 14px;
+    display: block;
+}

@@ -1,0 +1,27 @@
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    text-align: center;
+    color: $text_color;
+    margin-bottom: 100px;
+
+    &::before {
+        content: '';
+        @include petal;
+        background: url("../icons/blue_petal.svg") center (center/cover) no-repeat;
+        margin-right: 45px;
+    }
+
+    &::after {
+        content: '';
+        @include petal;
+        background: url("../icons/blue_petal.svg") center (center/cover) no-repeat;
+        margin-left: 45px;
+        transform: scaleX(-100%);
+
+    }
+}
