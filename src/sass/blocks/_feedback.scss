@@ -1,0 +1,18 @@
+.feedback {
+    &__item {
+        margin: 0 auto;
+        width: 636px;
+        height: 350px;
+        background: $accent;
+        border-radius: 10px;
+        padding: 50px 60px 56px 60px;
+    }
+
+    &__name {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: $text_color;
+    }
+}
