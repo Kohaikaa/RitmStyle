@@ -1,9 +1,12 @@
 $(document).ready(function () {
     const slider = tns({
         container: '.feedback__slider',
-        items: 4,
+        items: 2,
+        speed: 500,
         slideBy: 'page',
-        controls: false,
-        nav: false
+        controls: true,
+        nav: true,
+        mode: "carousel",
+        axis: "horizontal"
     });
 });

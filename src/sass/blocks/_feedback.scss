@@ -1,11 +1,23 @@
 .feedback {
+    // &__slider {
+    //     display: flex;
+    //     justify-content: space-between;
+    //     align-items: center;
+    // }
+
     &__item {
-        margin: 0 auto;
-        width: 636px;
-        height: 350px;
+        display: block;
+        margin: 0 25px;
+        min-height: 276px;
+        width: 500px;
         background: $accent;
         border-radius: 10px;
         padding: 50px 60px 56px 60px;
+
+        &_active {
+            min-height: 350px;
+            width: 636px;
+        }
     }
 
     &__name {
@@ -13,6 +25,15 @@
         font-weight: 700;
         font-size: 20px;
         line-height: 28px;
+        margin-bottom: 20px;
+        color: $text_color;
+    }
+
+    &__descr {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
         color: $text_color;
     }
 }
