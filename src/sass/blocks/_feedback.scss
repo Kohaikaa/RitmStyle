@@ -1,0 +1,59 @@
+.feedback {
+    &__slider {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__item {
+        display: block;
+        margin: 0 25px;
+        min-height: 276px;
+        width: 500px;
+        background: $accent;
+        border-radius: 10px;
+        padding: 50px 60px 56px 60px;
+
+        // &_active {
+        //     min-height: 350px;
+        //     width: 636px;
+        // }
+
+    }
+
+    &__name {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 20px;
+        color: $text_color;
+    }
+
+    &__descr {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        color: $text_color;
+    }
+
+    .tns-nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 60px auto 0 auto;
+        width: 124px;
+
+        button {
+            width: 16px;
+            height: 16px;
+            background: rgba($color: $text_color, $alpha: .4);
+            border-radius: 3px;
+            border: none;
+        }
+
+        .tns-nav-active {
+            background: rgba($color: $text_color, $alpha: 1);
+        }
+    }
+}
