@@ -1,12 +1,14 @@
-$(document).ready(function () {
-    const slider = tns({
-        container: '.feedback__slider',
-        items: 2,
-        speed: 500,
-        slideBy: 'page',
-        controls: true,
-        nav: true,
-        mode: "carousel",
-        axis: "horizontal"
-    });
+// $(document).ready(function () {
+
+// });
+
+const slider = tns({
+    container: '.feedback__slider',
+    items: 3,
+    speed: 700,
+    slideBy: 1,
+    nav: true,
+    navPosition: "bottom",
+    controls: false,
+    autoHeight: true
 });
