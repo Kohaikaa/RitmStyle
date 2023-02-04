@@ -1,0 +1,48 @@
+.about {
+    &__wrapper {
+        padding: 110px;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 100px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:nth-child(even) {
+            flex-direction: row-reverse;
+
+            .about__descr {
+                margin-left: 84px;
+                margin-right: 0;
+            }
+        }
+    }
+
+    &__descr {
+        margin-right: 84px;
+    }
+
+    &__header {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+        color: $text_color;
+        margin-bottom: 30px;
+    }
+
+    &__text {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+        color: $text_color;
+    }
+
+    &__img {
+        width: 600px;
+    }
+}

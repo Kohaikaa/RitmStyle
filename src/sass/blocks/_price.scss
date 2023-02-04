@@ -1,0 +1,55 @@
+.price {
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 110px;
+    }
+
+    &__list {
+        list-style-type: none;
+        width: 418px;
+
+        &-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &-name {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            color: $text_color;
+            margin: 16px 0 16px 0
+        }
+
+        &-cost {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: right;
+            color: $text_color;
+        }
+    }
+
+    &__certificate {
+        img {
+            display: block;
+        }
+
+        &-link {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 30px;
+            font-weight: 700;
+            font-size: 21px;
+            line-height: 29px;
+            text-align: center;
+            color: $text_color;
+            text-decoration: none;
+        }
+    }
+}
