@@ -11,6 +11,12 @@
         background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url("../img/main/second_bg.png") center (center/cover) no-repeat, #8E8E8E;
         cursor: pointer;
 
+        &:hover {
+            border-width: 0 0 7px 0;
+            border-style: solid;
+            border-color: $accent;
+        }
+
         &_big {
             width: 416px;
             height: 540px;

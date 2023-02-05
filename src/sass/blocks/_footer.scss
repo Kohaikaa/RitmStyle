@@ -1,0 +1,28 @@
+.footer {
+    margin-top: 90px;
+    min-height: 30px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__years {
+        color: $text_color;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    &__frontender {
+        font-weight: 700;
+        font-size: 14px;
+        color: $text_color;
+    }
+
+    &__designer {
+        font-weight: 700;
+        font-size: 14px;
+        color: $text_color;
+    }
+}

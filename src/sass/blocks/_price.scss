@@ -10,11 +10,22 @@
     &__list {
         list-style-type: none;
         width: 418px;
+        position: relative;
 
         &-item {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            margin-left: 20px;
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: -20px;
+                width: 18px;
+                height: 9px;
+                background: url('../icons/blue_petal.svg') center (center/cover) no-repeat;
+            }
         }
 
         &-name {
